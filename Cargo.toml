@@ -33,7 +33,7 @@ features = ["extension-module"]
 optional = true
 
 [target.'cfg(target_family = "unix")'.dependencies]
-nix = "0.17.0"
+nix = "0.24.1"
 
 [build-dependencies]
 cc = "1.0.65"
